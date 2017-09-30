@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'batmfa';
+    src: url("../fonts/batmfa.ttf");
+
+}
+
+html, body{
+  height:100%;
+  color:#FDE311;
+}
+
+body{
+  background-image: url(../images/batmanBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+
+
+}
+
+#outerContainer{
+  margin:3% auto;
+  background-color: rgba(0,0,0,0.4);
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+#innerContainer{
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+button{
+  display:block;
+  color: #ccbd2d;
+  width:45%;
+  height:18%;
+  font-family: 'batmfa','Gotham', sans-serif;
+  margin: 20px auto;
+  border: 2px solid transparent;
+  background:transparent;
+  font-size: 32px;
+
+}
+
+img{
+  height:250px;
+}
+
+h1{
+  font-family: 'batmfa','Gotham', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color:#FDE311;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-weight: bold;
+  background-color: rgba(154,157,161,0.6);
+  padding: 5px;
+  color:#FDE311;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#timeLine{
+  color:#bfbfbf;
+  background-color: transparent;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid #FDE311;
+  background-color: rgba(154,157,161,0.6);
+}
+
+
+
+button:hover {
+  border:2px solid #FDE311;
+  color:#FDE311;
+  background-color: rgba(154,157,161,0.6);
+}
